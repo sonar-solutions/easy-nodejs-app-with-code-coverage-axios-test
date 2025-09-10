@@ -92,7 +92,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-coverage-
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v5.3.0
+        uses: SonarSource/sonarqube-scan-action@v5.3.1
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       - name: Mark as skipped (main)
@@ -138,7 +138,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-coverage-
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v5.3.0
+        uses: SonarSource/sonarqube-scan-action@v5.3.1
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       - name: Mark as skipped (feature)
@@ -184,7 +184,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-coverage-
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v5.3.0
+        uses: SonarSource/sonarqube-scan-action@v5.3.1
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       - name: Mark as skipped (pr)

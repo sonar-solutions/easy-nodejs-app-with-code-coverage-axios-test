@@ -1,4 +1,4 @@
-# 🚀 Easy NodeJS Project  
+# 🚀 Easy NodeJS Project 
 
 Easy NodeJS project with ExpressJS and AvaJS for unit testing and code coverage.
 
